@@ -314,7 +314,7 @@ a.menu-link { display: none; }
     background-color: rgba(22,34,57,0.85);
     top: 0;
     left: 0;
-    bottom: 7px;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -599,6 +599,7 @@ section.why-us {
   text-align: left;
 }
 
+
 @media screen and (max-width: 767px) {
   
   .tabs-content {
@@ -609,14 +610,16 @@ section.why-us {
 
 .tabs-content img {
     width: 100%;
-    overflow: hidden;
+    overflow: hidden; 
     padding-right: 45px;
+    
 }
 
 @media screen and (max-width: 767px) {
 
   .tabs-content img {
       padding-right: 0px;
+      border-radius: 16px;
   }
 
 }
