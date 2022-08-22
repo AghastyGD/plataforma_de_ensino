@@ -1,5 +1,6 @@
 @import url(fontawesome.css);
 @import url("<link href= https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet");
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -12,7 +13,7 @@ a {
 }
 
 a:hover {
-	color: #FC3;
+	/* color: #FC3; */
     text-decoration: none;
 }
 
@@ -20,7 +21,7 @@ ul {
     padding: 0px;
     margin: 0px;
     list-style: none;
-}
+} 
 
 p {
     font-size: 13px;
@@ -270,7 +271,7 @@ a.menu-link { display: none; }
 
 .main-menu li .sub-menu li a:hover {
     color: #f5a425;
-    border: none;
+    text-decoration-line: underline;
 }
 
 .main-nav li:hover a,
@@ -1583,7 +1584,7 @@ footer p a:hover {
 }
 
 @media screen and (max-width: 950px) {
-  .main-menu { padding-right: 0!important; }
+  .main-menu { padding-right: 0!important;}
   .main-header .logo {
     line-height: 73px;
   }
